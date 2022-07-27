@@ -1,0 +1,43 @@
+.modi-btn {
+  background: var(--lightgrey);
+  border: 1px solid var(--lightgrey);
+}
+.confirm-btn {
+  background: var(--primary);
+}
+.mid-tabs-box .nav-item .nav-link {
+  font-size: 14px;
+  color: var(--darkgrey);
+  border: 1px solid var(--lightgrey);
+  border-radius: 6px;
+  padding: 15px;
+  background: var(--white);
+  margin-right: 10px;
+}
+.mid-tabs-box {
+  border: none;
+}
+.mid-tabs-box .nav-item .nav-link.active,
+.mid-tabs-box .nav-item .nav-link:hover {
+  background: var(--primary);
+  color: var(--white);
+  border-color: var(--primary);
+}
+.tab-content {
+  background: var(--white);
+  border-radius: 10px;
+  padding: 25px 35px;
+}
+.form-item-align-box input[type="text"] {
+  padding: 10px 20px;
+  height: 50px;
+}
+.form-item-align-box select {
+  padding: 10px 20px;
+  height: 50px;
+}
+@media (max-width: 768px) {
+  .tab-content {
+    padding: 15px;
+  }
+}

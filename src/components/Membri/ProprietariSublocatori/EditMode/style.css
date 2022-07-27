@@ -1,0 +1,11 @@
+.f-label {
+  color: var(--darkgrey);
+}
+.form-item-align-box input[type="text"] {
+  padding: 10px 20px;
+  height: 50px;
+}
+.form-item-align-box select {
+  padding: 10px 20px;
+  height: 50px;
+}

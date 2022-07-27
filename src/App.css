@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap-utilities.css";
+@import "../node_modules/bootstrap/dist/css/bootstrap-grid.css";
+
+@import "./assets/css/otherstyle.css";
+@import "./assets/css/light.min";
+@import "./assets/css/all.min.css";
+input,
+textarea,
+select,
+ol,
+ul,
+li,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+}
+a,
+a:hover,
+a:focus {
+  cursor: pointer;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
+  outline: none;
+  text-decoration: none;
+}
+button:focus {
+  outline: none;
+  border: none;
+}
+button:focus,
+input:focus {
+  box-shadow: none !important;
+}
+button {
+  cursor: pointer;
+}
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.ls li {
+  list-style: none;
+}
+.cur {
+  cursor: pointer;
+}
+.po img {
+  opacity: 0;
+}
+
+.mw-100 img {
+  max-width: 100%;
+}
+
+.fw-100 img {
+  width: 100%;
+}
+
+.rel {
+  position: relative;
+}
+.img-100 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+:root {
+  --primary: #83112f;
+  --white: #fff;
+  --yellow: #f2994a;
+  --darkgrey: #3c4257;
+  --lightgreen: #78ab8b;
+  --lightgrey: #606f88;
+  --lightblue: #5998bc;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+.sidebar-main {
+  padding: 40px 20px;
+  background: url(./assets/images/side-bg.png) no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 21%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.logo {
+  width: 129px;
+}
+.app-box.app-small .logo {
+  width: 100%;
+}
+.app-box.app-small .sidebar-main {
+  width: 9%;
+}
+.right-side-box {
+  margin-left: 21%;
+  width: 79%;
+}
+.app-box.app-small .right-side-box {
+  margin-left: 9%;
+  width: 91%;
+}
+
+.dropdwon-link .sub-links {
+  display: none;
+}
+.dropdwon-link.dropdwon-open .sub-links {
+  display: block;
+}
+/* .app-box.app-small .menu-list,
+.app-box.app-small .links-log {
+  display: none !important;
+} */
+.app-box.app-small .text-link,
+.app-box.app-small .icon-down {
+  display: none;
+}
+
+.app-box.app-small .icon-link {
+  display: block;
+  margin: 0 auto;
+  text-align: center !important;
+}
+.menu-list li .icon-link,
+.links-log li .icon-link {
+  display: none;
+}
+.menu-list li,
+.links-log li {
+  margin-bottom: 10px;
+}
+.menu-list li a,
+.links-log li a,
+.menu-list li button,
+.sub-links li a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+.menu-list li a:hover,
+.links-log li a:hover,
+.menu-list li button:hover,
+.sub-links li a:hover {
+  color: var(--primary);
+}
+.left-nav-form li {
+  margin-bottom: 10px;
+}
+.left-nav-form li a {
+  margin-bottom: 10px;
+  color: #91939b;
+  font-size: 16px;
+  font-weight: 400;
+}
+.left-nav-form li a:hover,
+.left-nav-form li .active {
+  margin-bottom: 10px;
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.app-box.app-small .dropdwon-link {
+  position: relative;
+}
+.app-box.app-small .dropdwon-link .sub-links {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0 10px 10px 0;
+  left: 58px;
+  top: 0;
+  min-width: 200px;
+  z-index: 1;
+}
+.app-box.app-small .dropdwon-link .sub-links ul {
+  padding: 0;
+}
+.app-box.app-small .dropdwon-link .sub-links ul li a {
+  padding: 4px 10px;
+  width: 100%;
+  display: block;
+}
+.dropdwon-link .sub-links ul li:last-child {
+  margin-bottom: 0px;
+}
+.form-check-input:checked {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+.submit-btn {
+  background: var(--primary);
+  color: #fff;
+}
+.submit-btn:hover {
+  background: #111;
+  color: #fff;
+}
+.backwards-btn {
+  background: #fff;
+  color: #000;
+}
+.backwards-btn:hover {
+  background: #111;
+  color: #fff;
+}
+.bag-btn {
+  background: #606f88;
+  color: #fff;
+}
+.bag-btn:hover {
+  background: var(--primary);
+  color: #fff;
+}
+.interest-link {
+  color: var(--primary);
+}
+@media (max-width: 767px) {
+  .app-box.app-small .sidebar-main {
+    width: 80px;
+  }
+  .app-box.app-small .right-side-box {
+    margin-left: 80px;
+    width: calc(100% - 80px);
+  }
+  .form-item-align-box input[type="text"] {
+    width: 100%;
+  }
+}

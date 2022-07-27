@@ -1,0 +1,16 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import Box from "./components/app";
+import { BrowserRouter } from "react-router-dom";
+import "./index.css";
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Box>
+        <App />
+      </Box>
+    </BrowserRouter>
+  </React.StrictMode>
+);
