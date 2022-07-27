@@ -13,6 +13,9 @@
     "heroku-postbuild": "npm run build"
   },
   "dependencies": {
+    "@emotion/cache": "^11.9.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/utils": "^1.1.0",
     "@mantine/core": "^5.0.0",
     "@mantine/dropzone": "^5.0.0",
     "@mantine/hooks": "^5.0.0",
