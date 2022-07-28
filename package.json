@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "start": "serve -s build",
+    "build": "vue-tsc --noEmit && vite build",
+    "start": "vite",
+    "serve": "vite preview",
     "preview": "vite preview",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@emotion/cache": "^11.9.3",
