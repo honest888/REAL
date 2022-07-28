@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "build": "vite build",
     "start": "vite",
     "serve": "vite preview",
-    "preview": "vite preview",
+    "preview": "vite preview --port 8080",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
