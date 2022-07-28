@@ -4,9 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "dev":"vite",
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "serve": "serve -s build",
     "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=production; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
     "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;"
   },
